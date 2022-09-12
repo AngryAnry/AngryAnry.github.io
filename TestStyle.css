@@ -99,7 +99,6 @@ font-weight: 400;
 font-size: 24px;
 line-height: 29px;
 text-align: center;
-
 color: #0F0F0F;
 }
 
@@ -121,7 +120,6 @@ a:active{
 }
 
 .button{
-	
 	width: 246px;
 height: 63px;
 left: 1314px;
@@ -132,7 +130,6 @@ text-decoration: none;
 }
 
 p{
-
 	margin: 19px 39px;
 width: 167px;
 height: 24px;
@@ -175,7 +172,7 @@ width: 387px;
 height: 52px;
 left: 360px;
 top: 42px;
-background: url(search.png) no-repeat center right;
+background: url(img/search.png) no-repeat center right;
 background-color: #F1F1F1;
 border-radius: 5px;
 
@@ -187,7 +184,6 @@ line-height: 19px;
 text-align: left;
 color: #979797;
 }
-
 .gornaz{
 	left: 1530px;
 	position: absolute;
@@ -213,18 +209,112 @@ ul{
 	list-style-type: none;
 	padding: 5px;
 }
-	li{
+li{
 		margin-top:7px;
 	margin-bottom:7px;
 	}
 	
+.golovnaimg{
+padding-top: 196px;
+width: 1324px;
+	}
+	.golovna{
+		display: flex;
+flex-direction: column;
+	}
+	.golovnatext{
+		position: absolute;
+width: 1200px;
+height: 112px;
+left: 360px;
+top: 305px;
 
+font-family: Verdana;
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 125%;
+text-align: center;
+color: #FFFFFF;
+	}
+	h1{
+left: 783px;
+top: 390px;
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 150px;
+text-align: center;
+color: #FFFFFF;
+	}
+.golovnabutton1{
+	position: absolute;
+width: 246px;
+height: 63px;
+left: 837px;
+top: 633px;
 
+background: #E21E26;
+border-radius: 5px;
+}
+.golovnamenu{
+	
+	padding-left:40px;
+	padding-right:40px;
+	position: absolute;
+width: 1200px;
+height: 282px;
+left: 360px;
+top: 905px;
 
+background: #FEFEFE;
+box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.13);
+border-radius: 10px;
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+align-items:center;
+}
+.contg1, .contg2, .contg3{
+	display: flex;
+flex-direction: column;
+align-items:center;
+text-align:center;
+}
+.arrowgolovna{
+	display: flex;
+	flex-direction:row;
+	align-self:flex-end;
+	padding-bottom: 80px;
+}
+.golovnabutton2{
+width: 285px;
+height: 77px;
+left: 1235px;
+top: 1042px;
+background: #E21E26;
+border-radius: 5px;
+}
 
-
-
-
+.golovnap{
+	padding-top:5px;
+	padding-left:10px;
+	font-family:Verdana;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: #FFFFFF;
+}
+.menuway{
+	font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+color: #212121;
+}
 
 
 
