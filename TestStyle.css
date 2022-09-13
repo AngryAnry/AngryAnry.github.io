@@ -175,7 +175,6 @@ top: 42px;
 background: url(img/search.png) no-repeat center right;
 background-color: #F1F1F1;
 border-radius: 5px;
-
 font-family: Verdana;
 font-style: normal;
 font-weight: 400;
@@ -228,7 +227,6 @@ width: 1200px;
 height: 112px;
 left: 360px;
 top: 305px;
-
 font-family: Verdana;
 font-style: normal;
 font-weight: 400;
@@ -237,10 +235,10 @@ line-height: 125%;
 text-align: center;
 color: #FFFFFF;
 	}
-	h1{
+	h1 .golovnatext{
 left: 783px;
 top: 390px;
-font-family: 'Verdana';
+font-family: Verdana;
 font-style: normal;
 font-weight: 700;
 font-size: 150px;
@@ -253,12 +251,10 @@ width: 246px;
 height: 63px;
 left: 837px;
 top: 633px;
-
 background: #E21E26;
 border-radius: 5px;
 }
 .golovnamenu{
-	
 	padding-left:40px;
 	padding-right:40px;
 	position: absolute;
@@ -294,6 +290,7 @@ left: 1235px;
 top: 1042px;
 background: #E21E26;
 border-radius: 5px;
+margin-top:50px;
 }
 
 .golovnap{
@@ -315,11 +312,429 @@ font-size: 20px;
 line-height: 23px;
 color: #212121;
 }
+.sect3{
+	position: absolute;
+width: 1200px;
+height: 36px;
+left: 350px;
+top: 1287px;
 
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
 
+color: #0F0F0F;
+}
+.section-3{
+	
+padding-top:580px;
+	display:flex;
+flex-direction:row;
+justify-content:space-between;
+flex-wrap:wrap;
+margin-left:360px;
+margin-right:220px;
+}
+.card-1, .card-2{
+	background-color: #FFFFFF;
+	background:url(img/Rectakcia.png) no-repeat;
+box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.13);
+border-radius: 10px;
+position:relative;
+width: 355px;
+height: 697px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+margin-bottom: 67px;
+}
+	
+.axia{
+font-family: Arial;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 2px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-align:left;
+color: #FFFFFF;
+margin:0px 0px 45px 30px;
+}
+.axia1{
+	display:flex;
+	align-self:flex-start;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+}
+.axia2{
+	display:flex;
+	align-self:flex-start;
+	padding:0px;
+	margin:0px 0px 70px 0px;
+}
+.axia3{
+	display:flex;
+	align-self:flex-start;
+	padding:0px;
+	margin:20px 0px 0px 0px;
+}
+	
+.cardstyle-1{
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+width: 355px;
+text-align: center;
+color: #000000;
+margin-left:15px;
+margin-top:0px;
+padding-top:0px;
+}
+.cardstyle-2{
+	font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+text-align: center;
+color: #000000;
+margin-left:110px;
+margin-bottom:0px;
+margin-top:0px;
+}
+.rub{
+	font-family: 'Verdana';
+font-style: normal;
+font-weight: 200;
+font-size: 50px;
+line-height: 20px;
+text-align: center;
+color: #000000;
+margin-left:10px;
 
+}
+.cardstyle-3{
+	font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 0px;
+text-align: center;
+text-transform: lowercase;
+color: #000000;
+margin-left:94px;
+margin-bottom:0px;
+}
+	hr{
+width: 306px;
+height: 1px;
+border: 1px solid #E6E6E6;
+margin-bottom:5px;
+margin-top:0px;
+	}
+	
+	.cardline-1, .cardline-2{
+		display:flex;
+		flex-direction:row;
+		padding:10px;
+	}
 
+	.cardstyle-4{
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 24px;
+color: #000000;
+text-align:left;
+width: 236px;
+margin: 15px 0px 0px 25px;
+	}
+		
+	.cardstyle-5left{
+		width: 220px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #000000;
+text-align:left;
+margin-bottom:0px;
+margin-top:0px;
+	}
+	.cardstyle-5right{
+		width: 100px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+text-align: right;
+color: #000000;
+padding-right:35px;
+margin-bottom:0px;
+margin-top:0px;
+	}
+	.cardimg-1{
+	width: 35.78px;
+height: 18px;
+margin-right:35px;
+	}
+	.cardstyle-5left, .cardstyle-5right, .cardimg-1{
+	margin: 0px 0px 0px 15px;
+	}
+	.cardstyle-6{
+	width: 355px;
+height: 19px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+color: #9D9D9D;
+margin: 0px 0px 10px 10px;
+	}
+	.cardbutton{
+		display:flex;
+justify-content:center;
+	}
+	.buttonc{
+width: 190px;
+height: 59px;
+background: #E21E26;
+border-radius: 5px;
+display:flex;
+justify-content:center;
+	}
+	.buttoncard{
+width: 137px;
+height: 22px;
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+	}
+	.cardstyle-7{
+		width: 355px;
+		font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
 
+text-align: center;
+color: #000000;
+margin-left:15px;
+margin-top:0px;
+padding-top:0px;
+	}
+	.zacherk{
+		width: 139.02px;
+		height: 32px;
+		font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+color: #D0D0D0;
+margin-right:5px;
+	}
+	.cardstyle-8{
+			font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+text-align: center;
+color: #000000;
+margin-left:80px;
+margin-bottom:0px;
+margin-top:0px;
+	}
+	
+	del{
+		font-size: 24px;
+		position: relative;
+		color: #D0D0D0;
+		text-decoration:none;
+	}
+		
+del:before{
+	content:"";
+	transform: rotate(-38.11deg);
+	width:100%;
+	height:50%;
+	border-bottom:2px solid #D0D0D0;
+position:absolute;
+padding-top:13px;
+}
+		
+	.sect4{
+		position: absolute;
+width: 1200px;
+height: 36px;
+left: 360px;
+top: 2917px;
 
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #0F0F0F;
+	}
+	.section-4{
+padding-top:100px;
+	display:flex;
+flex-direction:row;
+justify-content:space-between;
+flex-wrap:wrap;
+margin-left:360px;
+margin-right:220px;
+	}
+	
+.card-3{
+	
+width: 355px;
+height: 616px;
+background: #FFFFFF;
+box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.13);
+border-radius: 10px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+margin-bottom: 67px;
+}
+.cardstyle-9{
+	font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #000000;
+width: 355px;
+height: 23px;
+margin:0px 0px 10px 0px;
+}
+.cardstyle-10{
+	font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 86px;
+text-align: center;
+color: #000000;
+	width: 139.02px;
+height: 86px;
+margin: 15px 0px 0px 110px;
+}
+.card-4{
+	
+width: 355px;
+height: 616px;
+background:url(img/Rectakcia.png) no-repeat;
+background-color: #FFFFFF;
+box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.13);
+border-radius: 10px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+margin-bottom: 67px;
+padding-bottom:30px;
+}
+	.cardstyle-11{
+	font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 0px;
+text-align: center;
+text-transform: lowercase;
+color: #000000;
+margin:0px 0px 0px 94px;
+}
+	.cardstyle-12{
+	font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 86px;
+text-align: center;
+color: #000000;
+	width: 139.02px;
+height: 86px;
+margin: 0px 0px 0px 110px;
+	}
+	.section-5, .section-6{
+padding-top:100px;
+	display:flex;
+flex-direction:row;
+justify-content:flex-start;
+flex-wrap:wrap;
+margin-left:360px;
+margin-right:220px;
+	}
+	
+	.sect5{
+	position: absolute;
+width: 1200px;
+height: 36px;
+left: 360px;
+top: 4437px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #0F0F0F;
+	}
+	.card-5{
+		display:flex;
+flex-direction:column;
+justify-content:center;
+margin-bottom: 67px;
+width: 355px;
+height: 532px;
+background: #FFFFFF;
+box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.13);
+border-radius: 10px;
+margin-right: 115px;
+	}
+	.sect6{
+width: 1200px;
+height: 36px;
+left: 360px;
+top: 5198px;
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+color: #0F0F0F;
+	}
+	
+
+	
+	
+	
+	
+	
+	
+	
 
 
